@@ -1,0 +1,6 @@
+{
+    "video": false,
+    "baseUrl": "https://www.google.com",
+    "testFiles": "**/*.feature",
+    "watchForFileChanges": true
+}

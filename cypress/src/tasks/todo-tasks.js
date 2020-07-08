@@ -1,4 +1,4 @@
-import { TODO_FIELD, TODO_URL } from "../config";
+import { TODO_FIELD, TODO_URL, TODO_LIST } from "../config";
 
 export const addItemToList = (todoText) => {
     cy.get(TODO_FIELD).type(todoText + '{enter}');
@@ -18,4 +18,14 @@ export const startWithItemsList = (items) => {
     start();
 
    addItemsToList(items);
+}
+
+export const changeItemState = (items) => {
+    items.forEach(item => {
+        cy.get(TODO_LIST)
+            .contains(item)
+            .parent()
+            .find('input')
+            .click()
+    });
 }

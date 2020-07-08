@@ -3,11 +3,11 @@ import { startWithItemsList, changeItemState } from "../../src/tasks/todo-tasks"
 import { checkLeftItems } from "../../src/questions/todo-questions";
 
 Given('Eu acesso o site e preencho a lista com os items a seguir {string}', (items) => {
-    startWithItemsList(items.split(', '));
+    startWithItemsList(items);
 });
 
 When('Eu altero o estado dos items {string} para completo', (items) => {
-    changeItemState(items.split(', '));
+    changeItemState(items);
 });
 
 Then('O numero de items que falta diminui {string} {string}', (items, doneItems) => {

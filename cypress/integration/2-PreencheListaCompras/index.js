@@ -7,10 +7,10 @@ Given('Eu acesso o site', () => {
 });
 
 When("Eu adiciono {string} na lista", (itens) => {
-    addItemsToList(itens.split(', '));
+    addItemsToList(itens);
 });
 
 Then('A lista apresenta {string} items {string} digitados', (qtd, items) => {
-   sizeIs(qtd);
-    contentsHave(items.split(', '));
+    sizeIs(qtd);
+    contentsHave(items);
 });

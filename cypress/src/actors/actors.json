@@ -1,0 +1,10 @@
+{
+    "Lucas": {
+        "buyList": ["Maçã", "Uva", "Laranja", "Limão"],
+        "completed": ["Maçã", "Laranja"]
+    },
+    "Regiane": {
+        "buyList": ["Hamburguer", "Macarrão", "Frango"],
+        "completed": ["Macarrão"]
+    }
+}

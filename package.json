@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run --browser chrome --no-exit"
+    "test": "cypress run --browser chrome --no-exit",
+    "test:open": "cypress open"
   },
   "author": "",
   "license": "ISC",

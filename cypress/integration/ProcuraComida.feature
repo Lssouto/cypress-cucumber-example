@@ -1,3 +1,5 @@
+# Uma feature totalmente de exemplo
+
 Feature: Procura comida gostosa
 
     Scenario: Verifica se acha miojo

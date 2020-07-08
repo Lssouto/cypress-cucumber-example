@@ -10,7 +10,7 @@ When("Eu adiciono {string} na lista", (itens) => {
     addItemsToList(itens.split(', '));
 });
 
-Then('A lista apresenta os 4 items digitados', () => {
-   sizeIs(4);
-   contentsHave(['Maçã', 'Uva', 'Laranja', 'Limão']);
+Then('A lista apresenta {string} items {string} digitados', (qtd, items) => {
+   sizeIs(qtd);
+    contentsHave(items.split(', '));
 });

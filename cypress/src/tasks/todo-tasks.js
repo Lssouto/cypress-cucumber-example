@@ -1,4 +1,4 @@
-import { TODO_FIELD, TODO_URL, TODO_LIST, TODO_COMPLETED } from "../config";
+import { TODO_FIELD, TODO_URL, TODO_LIST, TODO_COMPLETED, TODO_ACTIVED } from "../config";
 
 export const addItemToList = (todoText) => {
     cy.get(TODO_FIELD).type(todoText + '{enter}');
@@ -39,4 +39,8 @@ export const changeItemState = (items) => {
 
 export const clickCompleted = () => {
     cy.get(TODO_COMPLETED).click();
+} 
+
+export const clickActived = () => {
+    cy.get(TODO_ACTIVED).click();
 } 

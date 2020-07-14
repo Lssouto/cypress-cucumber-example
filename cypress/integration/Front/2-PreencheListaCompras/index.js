@@ -1,6 +1,6 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import { start, addItemToList, addItemsToList } from '../../src/tasks/todo-tasks';
-import { sizeIs, contentsHave } from "../../src/questions/todo-questions";
+import { start, addItemToList, addItemsToList } from '../../../src/tasks/todo-tasks';
+import { sizeIs, contentsHave } from "../../../src/questions/todo-questions";
 
 Given('Eu acesso o site', () => {
     start();

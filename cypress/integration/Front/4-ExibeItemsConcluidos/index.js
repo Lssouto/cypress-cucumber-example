@@ -1,7 +1,7 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import { startWithItemsList, changeItemState, clickCompleted } from "../../src/tasks/todo-tasks";
-import { sizeIs } from '../../src/questions/todo-questions';
-import { TodoActor } from "../../src/models/todo";
+import { startWithItemsList, changeItemState, clickCompleted } from "../../../src/tasks/todo-tasks";
+import { sizeIs } from '../../../src/questions/todo-questions';
+import { TodoActor } from "../../../src/models/todo";
 
 
 let actor;

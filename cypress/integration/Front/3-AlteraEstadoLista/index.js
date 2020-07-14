@@ -1,6 +1,6 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import { startWithItemsList, changeItemState } from "../../src/tasks/todo-tasks";
-import { checkLeftItems } from "../../src/questions/todo-questions";
+import { startWithItemsList, changeItemState } from "../../../src/tasks/todo-tasks";
+import { checkLeftItems } from "../../../src/questions/todo-questions";
 
 Given('Eu acesso o site e preencho a lista com os items a seguir {string}', (items) => {
     startWithItemsList(items);

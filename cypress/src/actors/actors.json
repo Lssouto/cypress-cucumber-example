@@ -6,5 +6,19 @@
     "Regiane": {
         "buyList": ["Hamburguer", "Macarrão", "Frango"],
         "completed": ["Macarrão"]
+    },
+    "auth": {
+        "credentials": {
+            "username": "username",
+            "password": "password"
+        },
+        "baseUrl": "localhost:3001"
+    },
+    "unAuth": {
+        "credentials": {
+            "username": "",
+            "password": ""
+        },
+        "baseUrl": "localhost:3001"
     }
 }

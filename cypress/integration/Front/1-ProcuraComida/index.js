@@ -1,5 +1,3 @@
-import { Given } from "cypress-cucumber-preprocessor/steps";
-
 Given(`Acesso o site do google`, () => {
   cy.visit('https://www.google.com');
 });

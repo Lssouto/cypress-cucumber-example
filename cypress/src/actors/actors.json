@@ -1,11 +1,13 @@
 {
     "Lucas": {
         "buyList": ["Maçã", "Uva", "Laranja", "Limão"],
-        "completed": ["Maçã", "Laranja"]
+        "completed": ["Maçã", "Laranja"],
+        "baseUrl": "localhost:3001"
     },
     "Regiane": {
         "buyList": ["Hamburguer", "Macarrão", "Frango"],
-        "completed": ["Macarrão"]
+        "completed": ["Macarrão"],
+        "baseUrl": "localhost:3001"
     },
     "auth": {
         "credentials": {
